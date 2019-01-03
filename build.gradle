@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'com.hk2t'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.springframework', name: 'spring-webmvc', version: '4.3.21.RELEASE'
+}
